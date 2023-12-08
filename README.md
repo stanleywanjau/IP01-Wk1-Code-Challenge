@@ -25,6 +25,7 @@ bash$ cd IP01-Wk1-Code-Challenge
 
 ## Technologies Used
 * python
+* terminal
 
 ## Support and Contact Details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at
