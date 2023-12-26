@@ -19,8 +19,8 @@ def clock_converter(time_str):
             hour = 0  # Midnight
     # Check if the period is "pm"
     else:
-      #if the period is greater than 12 i will add 12
-        if hour > 12:
+      #if the period is greater than 0 i will add 12
+        if hour > 0:
             hour += 12 
 
     # Format the time in 24-hour format as a four-digit string
@@ -33,4 +33,5 @@ print( clock_converter("8:10 am"))
 print( clock_converter("12:10 am"))
 print(clock_converter("8:10 pm"))
 print(clock_converter("11:10 pm"))
+print(clock_converter("6:10 pm"))
 
